@@ -1,0 +1,1 @@
+// Q17. Implementar sua própria função de alta ordem reduce(...).
