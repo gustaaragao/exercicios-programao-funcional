@@ -23,6 +23,3 @@ const filtrarMaiores = ([x, ...xs], item) => {
 
 console.log(qSort([3,0,1,4,2,5]))
 // [ 0, 1, 2, 3, 4, 5 ]
-
-// Exportando a função qSort para o exercício Q08
-module.exports = {qSort}
