@@ -4,12 +4,11 @@ Se o elemento existir, retorne sua posição na lista; caso contrário, retorne 
 Exemplos: [-4,0,3,7,11].buscabin(7) ---> 3; [-4,0,3,7,11].buscabin(1) ---> -1 (ou NaN).
 */
 
-  
+// Lembrete: O algoritmo da Busca Binária pressupõe que a Lista está ordenada. 
+// Caso não esteja, podemos usar a função qSort em q07.js (usar o algoritmo Quick sort).
+
 const buscaBinaria = (lista, item) => {
-    const meio = Math.floor(lista.length/2)
-    if (meio === item) return meio
-    else if (meio === 0) return -1 // A lista é vazia
-    else return (meio > item) ? buscaBinaria(lista.slice(0, meio), item) : meio + buscaBinaria(lista.slice(meio), item)
+
 }
 
-console.log(buscaBinaria([-4,0,3,4,7], 7)) // 2 + b([7, 11], 7) -> 2 + 1 + b([])
+console.log(buscaBinaria([-4,0,3,4,7], 7)) // 4
