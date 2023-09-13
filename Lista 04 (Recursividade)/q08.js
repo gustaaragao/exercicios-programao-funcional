@@ -50,3 +50,5 @@ const mdc = (n, m) => {
 
 console.log(mdc(42, 12))
 console.log(mdc(0, 0))
+
+module.exports = {mdc}
