@@ -11,7 +11,7 @@ const subString = (str1, str2) => {
     const str2Lista = caracteresLista(str2)
 
     if (str1Lista.length > str2Lista.length) return false // Se a str1 for maior que str2, é impossível str1 ser substring de str2.
-    else if (str1Lista.length === 0 || str2Lista.length === 0) return (str1Lista[0] === str2Lista[0]) // str1 ou str2 é uma string com apenas um caracter.
+    else if (str1Lista.length === 0 || str2Lista.length === 0) return (str1Lista[0] === str2Lista[0])
     else return subStringAux(str1Lista, str2Lista)
 }
 
